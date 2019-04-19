@@ -308,3 +308,4 @@ node_modules/find-versions/index.d.ts
 node_modules/find-versions/index.js
 node_modules/micromatch/lib/.DS_Store
 src/stylesheets/sass/
+!/node_modules/
