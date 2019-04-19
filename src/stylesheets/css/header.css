@@ -1,0 +1,74 @@
+body {
+  background-color: #edeef0; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #4a76a8;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px; }
+  @media screen and (max-width: 450px) {
+    header {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      height: 75px; } }
+
+.menu_header {
+  font-size: 31px;
+  color: white;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+.menu_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media screen and (max-width: 450px) {
+    .menu_links {
+      margin-bottom: 5px; } }
+
+.menu_link_button {
+  margin-right: 7px;
+  text-decoration: none;
+  border: 0.4px ridge none;
+  padding: 3px;
+  background-color: #116580;
+  color: #f1f0e3;
+  letter-spacing: 1px;
+  font-size: 17px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.2), 0 3px 2px rgba(0, 1, 6, 0.5), 0 0 1px 2px rgba(0, 1, 6, 0.2);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2), 0 3px 2px rgba(0, 1, 6, 0.5), 0 0 1px 2px rgba(0, 1, 6, 0.2);
+  background: -webkit-gradient(linear, left top, left bottom, from(#6e7078), to(#515156)), #6e7078;
+  background: linear-gradient(#6e7078, #515156), #6e7078; }
+  .menu_link_button:hover {
+    color: #eba09d;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
