@@ -2,14 +2,15 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   padding: 20px;
   border: 1px solid #e3e3e3; }
 
-.section_header_link {
-  text-decoration: underline #403bff; }
-
 .section_info {
   margin-right: 100px; }
+
+.section_header_link {
+  text-decoration: underline #403bff; }
 
 .section_info_information {
   display: flex;
