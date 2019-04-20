@@ -3,22 +3,21 @@ body {
 
 header {
   display: flex;
-  position: sticky;
-  height: 50px;
-  border-radius: 2px;
+  position: fixed;
+  width: 100%;
+  height: 65px;
   background-color: #4a76a8;
   align-items: center;
-  justify-content: space-around;
-  border-bottom-right-radius: 7px;
-  border-bottom-left-radius: 7px; }
-  @media screen and (max-width: 450px) {
+  border-bottom: 1px solid #e3e3e3;
+  justify-content: space-around; }
+  @media screen and (max-width: 800px) {
     header {
       flex-direction: column;
       height: 75px; } }
 
 .menu_header {
   cursor: pointer;
-  font-size: 31px;
+  font-size: 30px;
   color: white;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 @keyframes text-focus-in {
@@ -30,7 +29,7 @@ header {
     opacity: 1; } }
 .menu_links {
   display: flex; }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 800px) {
     .menu_links {
       margin-bottom: 5px; } }
 
@@ -38,12 +37,12 @@ header {
   margin-right: 7px;
   text-decoration: none;
   border: 0.4px ridge none;
-  padding: 3px;
+  padding: 4px;
   background-color: #116580;
   color: #f1f0e3;
   letter-spacing: 1px;
-  font-size: 17px;
-  border-radius: 4px;
+  font-size: 19px;
+  border-radius: 5px;
   box-shadow: 0 1px rgba(255, 255, 255, 0.2), 0 3px 2px rgba(0, 1, 6, 0.5), 0 0 1px 2px rgba(0, 1, 6, 0.2);
   background: linear-gradient(#6e7078, #515156), #6e7078; }
   .menu_link_button:hover {

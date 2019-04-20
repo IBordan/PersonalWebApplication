@@ -1,0 +1,48 @@
+.section_1 {
+  margin-top: 50px;
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #e3e3e3; }
+
+h1 {
+  text-decoration: underline #403bff;
+  border-radius: 50px; }
+
+.section_info {
+  margin-right: 100px; }
+
+.section_info_information {
+  display: flex;
+  flex-direction: column; }
+
+.info_photo {
+  padding-top: 20px;
+  border-radius: 100px; }
+
+.my_contact, .span_icons {
+  margin-left: 20px;
+  opacity: 0.8;
+  padding-left: 90px;
+  justify-content: flex-start;
+  display: block; }
+
+.info_contact-me, .span_contact-social {
+  text-transform: uppercase;
+  float: left; }
+
+.fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
+  margin-left: 40px; }
+
+.fab {
+  text-decoration: none; }
+  .fab:hover {
+    color: green;
+    transition: 0.2s ease-in-out; }
+
+.section_info-cv {
+  display: flex;
+  justify-content: center; }

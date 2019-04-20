@@ -309,3 +309,4 @@ node_modules/find-versions/index.js
 node_modules/micromatch/lib/.DS_Store
 src/stylesheets/sass/
 !/node_modules/
+!/src/stylesheets/css/section_1.css
