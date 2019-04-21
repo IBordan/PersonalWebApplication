@@ -16,8 +16,21 @@
 .fa-html5, .fa-css3-alt, .fa-sass, .fa-js, .fa-gulp, .fa-npm, .fa-git, .fa-adobe {
   font-size: 50px;
   display: flex;
+  cursor: pointer;
   padding: 15px; }
+  .fa-html5:hover, .fa-css3-alt:hover, .fa-sass:hover, .fa-js:hover, .fa-gulp:hover, .fa-npm:hover, .fa-git:hover, .fa-adobe:hover {
+    animation: rotate-center 0.5s ease-in-out both; }
 
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
 .row {
   display: flex;
   flex-wrap: wrap;
