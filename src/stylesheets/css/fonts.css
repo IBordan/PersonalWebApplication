@@ -1,0 +1,14 @@
+.menu_header {
+  font-family: "Cinzel"; }
+
+p, .menu_links_link {
+  font-family: "Roboto"; }
+
+.info_contact-me, .span_contact-social {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 12px; }
+
+.section_header_link {
+  font-family: "Lato";
+  font-weight: 700px; }

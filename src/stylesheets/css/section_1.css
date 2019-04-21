@@ -7,7 +7,7 @@
   flex-wrap: wrap-reverse; }
 
 .section_header_link {
-  text-decoration: underline #403bff; }
+  text-decoration: underline #9f99ff; }
 
 .section_info_1, .section_info_2 {
   padding: 20px; }
@@ -16,13 +16,16 @@
   opacity: 0.8;
   padding-left: 95px;
   display: block; }
+  @media screen and (max-width: 700px) {
+    .my_contact, .span_icons {
+      padding-left: 70px; } }
 
 .info_contact-me, .span_contact-social {
   text-transform: uppercase;
   float: left; }
 
 .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
-  margin-left: 40px; }
+  margin-left: 30px; }
   @media screen and (max-width: 700px) {
     .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
       margin-left: 25px; } }
@@ -57,4 +60,4 @@ button {
 
 @media screen and (max-width: 700px) {
   .section_info_1 {
-    margin-bottom: 10px; } }
+    margin-left: 5px; } }
