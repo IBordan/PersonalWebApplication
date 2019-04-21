@@ -310,3 +310,7 @@ node_modules/micromatch/lib/.DS_Store
 src/stylesheets/sass/
 !/node_modules/
 !/src/stylesheets/css/section_1.css
+!/src/stylesheets/sass/
+!/src/stylesheets/sass/section_1.sass
+!/src/stylesheets/sass/header.sass
+!/src/stylesheets/sass/fonts.sass
