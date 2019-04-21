@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center; }
 
-.fa-html5, .fa-css3-alt, .fa-sass, .fa-js, .fa-gulp, .fa-npm {
+.fa-html5, .fa-css3-alt, .fa-sass, .fa-js, .fa-gulp, .fa-npm, .fa-git, .fa-adobe {
   font-size: 50px;
   display: flex;
   padding: 15px; }
@@ -44,10 +44,7 @@
 .fa-js {
   color: yellowgreen; }
 
-.fa-gulp {
-  color: red; }
-
-.fa-npm {
+.fa-gulp, .fa-npm, .fa-adobe {
   color: red; }
 
 hr {
