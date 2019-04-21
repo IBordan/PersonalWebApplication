@@ -1,2 +1,2 @@
 # PersonalWebPage
-### Stack: HTML5; CSS3(SASS); Gulp; Git; npm;
+### Stack: HTML5; CSS3(SASS)Flexbox; Gulp; Git; npm;
