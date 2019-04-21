@@ -26,7 +26,7 @@ header
     100%
       filter: blur(0px)
       opacity: 1
-
+    
 .menu_links
   display: flex
   @media screen and (max-width: 700px)
@@ -50,3 +50,24 @@ header
 
 .menu_links_link
   animation: text-focus-in .5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
+  
+.menu_header::after
+  content: "."
+  font-size: 50px
+  animation: color-change-5x 8s linear infinite alternate both
+  
+@keyframes color-change-5x
+  0%
+    color: #19dcea
+
+  25%
+    color: #b22cff
+
+  50%
+    color: #ea2222
+
+  75%
+    color: #f5be10
+
+  100%
+    color: #3bd80d

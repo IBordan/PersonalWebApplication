@@ -72,8 +72,3 @@ button {
 @media screen and (max-width: 700px) {
   .section_info_1 {
     margin-left: 5px; } }
-
-.menu_header::after {
-  content: ".";
-  font-size: 40px;
-  color: yellow; }
