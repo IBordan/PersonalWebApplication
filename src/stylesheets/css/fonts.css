@@ -10,7 +10,7 @@ p, .menu_links_link {
   font-size: 13px;
   line-height: 1.35; }
 
-.section_header_link {
+.section_header_link, .span_skills-h2 {
   font-family: "Lato";
   font-weight: 700px; }
 
