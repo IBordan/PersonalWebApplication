@@ -38,11 +38,7 @@
       margin-left: 20px; } }
 
 .section_info-cv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
 
 .fab {
@@ -64,7 +60,6 @@ button {
   cursor: pointer; }
   button:hover {
     color: white;
-    -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
     background: #93A5CD;
     letter-spacing: 3px; }
@@ -77,19 +72,3 @@ button {
   content: ".";
   font-size: 40px;
   color: yellow; }
-
-.info_photo {
-  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
-
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes fade-in {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
