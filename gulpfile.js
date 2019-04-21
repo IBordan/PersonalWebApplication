@@ -12,7 +12,7 @@ gulp.task('Минификатор_JS', function () {
 });
 
 gulp.task('Минификатор_HTML', function() {
-  return gulp.src('src/content/*.html')
+  return gulp.src('*.html')
     .pipe(htmlmin({ collapseWhitespace: true}))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist/content/'));
