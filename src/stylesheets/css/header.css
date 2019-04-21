@@ -19,7 +19,7 @@ header {
   cursor: pointer;
   font-size: 40px;
   color: white;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+  animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 @keyframes text-focus-in {
   0% {
     filter: blur(12px);
@@ -51,4 +51,7 @@ header {
     transition: 0.2s ease-in-out; }
   @media screen and (max-width: 700px) {
     .menu_link_button {
-      font-size: 14.5px; } }
+      font-size: 16.5px; } }
+
+.menu_links_link {
+  animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }

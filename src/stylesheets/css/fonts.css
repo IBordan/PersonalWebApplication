@@ -13,3 +13,12 @@ p, .menu_links_link {
 .section_header_link {
   font-family: "Lato";
   font-weight: 700px; }
+
+p {
+  font-size: 16px; }
+
+button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.66; }

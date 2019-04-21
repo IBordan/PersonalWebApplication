@@ -6,11 +6,11 @@
   border-bottom: 1px solid #e3e3e3;
   flex-wrap: wrap-reverse; }
 
-.section_header_link {
-  text-decoration: underline #9f99ff; }
-
 .section_info_1, .section_info_2 {
   padding: 20px; }
+  @media screen and (max-width: 700px) {
+    .section_info_1, .section_info_2 {
+      padding: 10px; } }
 
 .my_contact, .span_icons {
   opacity: 0.8;
@@ -25,10 +25,10 @@
   float: left; }
 
 .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
-  margin-left: 30px; }
+  margin-left: 25px; }
   @media screen and (max-width: 700px) {
     .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
-      margin-left: 25px; } }
+      margin-left: 20px; } }
 
 .section_info-cv {
   display: flex;
@@ -61,3 +61,19 @@ button {
 @media screen and (max-width: 700px) {
   .section_info_1 {
     margin-left: 5px; } }
+
+.menu_header::after {
+  content: ".";
+  font-size: 40px;
+  color: yellow; }
+
+.section_info-myphoto:hover {
+  animation: slide-fwd-top 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@keyframes slide-fwd-top {
+  0% {
+    transform: translateZ(0) translateY(0); }
+  100% {
+    transform: translateZ(0) translateY(-20px); }
+  0% {
+    transform: translateZ(0) translateY(0px); } }
