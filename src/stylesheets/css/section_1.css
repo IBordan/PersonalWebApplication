@@ -23,6 +23,9 @@
 
 .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
   margin-left: 40px; }
+  @media screen and (max-width: 700px) {
+    .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
+      margin-left: 25px; } }
 
 .section_info-cv {
   display: flex;
@@ -30,6 +33,9 @@
 
 .fab {
   text-decoration: none; }
+  .fab:hover {
+    color: #6c89cd;
+    transition: 0.3s ease-in-out; }
 
 button {
   outline: none;
@@ -46,6 +52,9 @@ button {
   button:hover {
     color: white;
     transition: 0.3s ease-in-out;
-    background: #93A5CD; }
-  button:active {
-    letter-spacing: 2px; }
+    background: #93A5CD;
+    letter-spacing: 3px; }
+
+@media screen and (max-width: 700px) {
+  .section_info_1 {
+    margin-bottom: 10px; } }
