@@ -17,20 +17,18 @@
   font-size: 50px;
   display: flex;
   cursor: pointer;
-  padding: 15px; }
-  .fa-html5:hover, .fa-css3-alt:hover, .fa-sass:hover, .fa-js:hover, .fa-gulp:hover, .fa-npm:hover, .fa-git:hover, .fa-adobe:hover {
-    animation: rotate-center 0.5s ease-in-out both; }
+  padding: 15px;
+  animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both; }
 
-@keyframes rotate-center {
+@keyframes roll-in-blurred-left {
   0% {
-    transform: rotate(0); }
+    transform: translateX(-1000px) rotate(-720deg);
+    filter: blur(50px);
+    opacity: 0; }
   100% {
-    transform: rotate(360deg); } }
-@keyframes rotate-center {
-  0% {
-    transform: rotate(0); }
-  100% {
-    transform: rotate(360deg); } }
+    transform: translateX(0) rotate(0deg);
+    filter: blur(0);
+    opacity: 1; } }
 .row {
   display: flex;
   flex-wrap: wrap;
