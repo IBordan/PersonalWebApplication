@@ -29,6 +29,10 @@
   @media screen and (max-width: 780px) {
     .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
       margin-left: 20px; } }
+  .fa-telegram-plane:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-github:hover {
+    color: #746aff;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
 
 .section_info-cv {
   display: flex;
@@ -38,10 +42,6 @@
   text-decoration: none;
   color: #000000;
   opacity: 0.8; }
-  .fab:hover {
-    color: #746aff;
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out; }
 
 button {
   outline: none;
@@ -64,3 +64,8 @@ button {
 @media screen and (max-width: 780px) {
   .section_info_1 {
     margin-left: 5px; } }
+
+.fa-vk:hover {
+  color: #746aff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out; }
