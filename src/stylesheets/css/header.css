@@ -47,6 +47,9 @@ header {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1; } }
+  .menu_header:active {
+    color: #ff3440; }
+
 .menu_links {
   display: -webkit-box;
   display: -ms-flexbox;
