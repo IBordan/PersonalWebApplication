@@ -45,3 +45,12 @@ gulp.task('Валидатор_HTML', function() {
   return gulp.src("src/content/*.html")
     .pipe(htmlhint());
 });
+
+var cssmin = require('gulp-cssmin');
+
+gulp.task('Минификатор_CSS', function () {
+    gulp.src('src/stylesheets/css/*.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('src/stylesheets/css/'));
+});
