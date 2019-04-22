@@ -8,14 +8,14 @@ gulp.task('Минификатор_JS', function () {
   gulp.src('src/js/*.js')
     .pipe(uglify())
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('dist/js/'));
+    .pipe(gulp.dest('dist/js/plugin.js'));
 });
 
-gulp.task('Минификатор_HTML', function() {
+gulp.task('Минификатор_HTML_ТОЛЬКО_В_Master', function() {
   return gulp.src('*.html')
     .pipe(htmlmin({ collapseWhitespace: true}))
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('dist/content/'));
+    .pipe(gulp.dest('src/'));
 });
 
 var gulp = require('gulp'),
@@ -52,5 +52,5 @@ gulp.task('Минификатор_CSS', function () {
     gulp.src('src/stylesheets/css/*.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('src/stylesheets/css/'));
+        .pipe(gulp.dest('dist/stylesheets/'));
 });
