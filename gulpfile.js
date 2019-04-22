@@ -12,10 +12,9 @@ gulp.task('Минификатор_JS', function () {
 });
 
 gulp.task('Минификатор_HTML_ТОЛЬКО_В_Master', function() {
-  return gulp.src('*.html')
+  return gulp.src('src/content/*.html')
     .pipe(htmlmin({ collapseWhitespace: true}))
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('src/'));
+    .pipe(gulp.dest('src/content/'));
 });
 
 var gulp = require('gulp'),
