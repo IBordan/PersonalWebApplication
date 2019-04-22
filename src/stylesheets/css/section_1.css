@@ -8,7 +8,7 @@
 
 .section_info_1, .section_info_2 {
   padding: 50px; }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 780px) {
     .section_info_1, .section_info_2 {
       padding: 10px; } }
 
@@ -16,7 +16,7 @@
   opacity: 0.8;
   padding-left: 95px;
   display: block; }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 780px) {
     .my_contact, .span_icons {
       padding-left: 70px; } }
 
@@ -25,8 +25,8 @@
   float: left; }
 
 .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
-  margin-left: 25px; }
-  @media screen and (max-width: 700px) {
+  margin-left: 40px; }
+  @media screen and (max-width: 780px) {
     .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github {
       margin-left: 20px; } }
 
@@ -57,6 +57,6 @@ button {
     background: #93A5CD;
     letter-spacing: 3px; }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
   .section_info_1 {
     margin-left: 5px; } }
