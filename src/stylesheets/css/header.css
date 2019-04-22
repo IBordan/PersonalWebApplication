@@ -2,24 +2,16 @@ body {
   background-color: #edeef0; }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 55px;
   width: 100%;
   background-color: #4a76a8;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border-bottom: 1px solid #e3e3e3;
-  -ms-flex-pack: distribute;
   justify-content: space-around; }
   @media screen and (max-width: 700px) {
     header {
       direction: column;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
       flex-direction: column;
       height: 75px; } }
 
@@ -27,32 +19,18 @@ header {
   cursor: pointer;
   font-size: 40px;
   color: white;
-  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
 @keyframes text-focus-in {
   0% {
-    -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1; } }
   .menu_header:active {
     color: #ff3440; }
 
 .menu_links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   @media screen and (max-width: 700px) {
     .menu_links {
@@ -69,41 +47,18 @@ header {
   font-size: 15px; }
   .menu_link_button:hover {
     color: #eba09d;
-    -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out; }
   @media screen and (max-width: 700px) {
     .menu_link_button {
       font-size: 16.5px; } }
 
 .menu_links_link {
-  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
 .menu_header::after {
   content: ".";
   font-size: 50px;
-  -webkit-animation: color-change-5x 8s linear infinite alternate both;
   animation: color-change-5x 8s linear infinite alternate both; }
-
-@-webkit-keyframes color-change-5x {
-  0% {
-    color: #19dcea; }
-  25% {
-    color: #b22cff; }
-  50% {
-    color: #ea2222; }
-  75% {
-    color: #f5be10; }
-  100% {
-    color: #3bd80d; }
-  75% {
-    color: #19dcea; }
-  50% {
-    color: #b22cff; }
-  25% {
-    color: #ea2222; }
-  0% {
-    color: #f5be10; } }
 
 @keyframes color-change-5x {
   0% {
