@@ -93,16 +93,14 @@ header {
     color: #f5be10; }
   100% {
     color: #3bd80d; }
-  0% {
-    color: #19dcea; }
-  25% {
-    color: #b22cff; }
-  50% {
-    color: #ea2222; }
   75% {
-    color: #f5be10; }
-  100% {
-    color: #3bd80d; } }
+    color: #19dcea; }
+  50% {
+    color: #b22cff; }
+  25% {
+    color: #ea2222; }
+  0% {
+    color: #f5be10; } }
 
 @keyframes color-change-5x {
   0% {
@@ -115,13 +113,11 @@ header {
     color: #f5be10; }
   100% {
     color: #3bd80d; }
-  0% {
-    color: #19dcea; }
-  25% {
-    color: #b22cff; }
-  50% {
-    color: #ea2222; }
   75% {
-    color: #f5be10; }
-  100% {
-    color: #3bd80d; } }
+    color: #19dcea; }
+  50% {
+    color: #b22cff; }
+  25% {
+    color: #ea2222; }
+  0% {
+    color: #f5be10; } }
