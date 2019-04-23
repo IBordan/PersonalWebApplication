@@ -77,3 +77,6 @@ button {
 @media screen and (max-width: 780px) {
   .section_info_2 {
     margin-bottom: -200px; } }
+
+.skill_link {
+  padding-top: 120px; }
