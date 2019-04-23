@@ -1,16 +1,9 @@
 .section_info {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 100%;
   border-bottom: 1px solid #e3e3e3;
-  -ms-flex-wrap: wrap-reverse;
   flex-wrap: wrap-reverse;
   background-image: url(../img/art-botanical-cactus-532566.min.jpg); }
 
@@ -40,15 +33,10 @@
       margin-left: 26px; } }
   .fa-telegram-plane:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-spotify:hover {
     color: #746aff;
-    -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out; }
 
 .section_info-cv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
 
 .fab {
@@ -70,7 +58,6 @@ button {
   cursor: pointer; }
   button:hover {
     color: white;
-    -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
     background: #93A5CD;
     letter-spacing: 3px; }
@@ -81,7 +68,6 @@ button {
 
 .fa-vk:hover {
   color: #746aff;
-  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out; }
 
 .section_info {
