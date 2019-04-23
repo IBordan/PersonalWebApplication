@@ -71,9 +71,9 @@ button {
   transition: 0.5s ease-in-out; }
 
 .section_info {
-  height: 974px;
+  height: 925px;
   max-height: 1080px; }
 
 @media screen and (max-width: 780px) {
   .section_info_2 {
-    margin-bottom: -230px; } }
+    margin-bottom: -200px; } }
