@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/IBordan/PersonalWebApplication#readme",
   "devDependencies": {
-    "gulp": "^4.0.1",
+    "gulp": "^4.0.2",
     "gulp-cssmin": "^0.2.0",
     "gulp-htmlhint": "^2.2.1",
     "gulp-htmlmin": "^5.0.1",
