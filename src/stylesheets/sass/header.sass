@@ -1,6 +1,6 @@
 body
   background-color: #edeef0
-
+  
 header
   position: fixed
   display: flex
@@ -8,27 +8,17 @@ header
   width: 100%
   background-color: #4a76a8
   align-items: center
-  border-bottom: 1px solid #e3e3e3
   justify-content: space-around
   @media screen and (max-width: 700px)
     direction: column
     flex-direction: column
     height: 75px
+    padding: 5px
 
-.menu_header,
+.menu_header
   cursor: pointer
   font-size: 40px
   color: white
-  animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
-  @keyframes text-focus-in
-    0%
-      filter: blur(12px)
-      opacity: 0
-    100%
-      filter: blur(0px)
-      opacity: 1
-  &:active
-    color: #ff7395
     
 .menu_links
   display: flex
@@ -44,14 +34,12 @@ header
   font-weight: 100px
   letter-spacing: 1px
   font-size: 15px
+  transition: .2s ease-in-out
   &:hover
     color: rgb(235, 160, 157)
     transition: .2s ease-in-out
   @media screen and (max-width: 700px)
     font-size: 16.5px
-
-.menu_links_link
-  animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
   
 .menu_header::after
   content: "."
@@ -85,3 +73,7 @@ header
   
   0%
     color: #f5be10
+
+.scroll
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5)
+  transition: .2s ease-in-out
