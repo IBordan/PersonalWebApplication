@@ -1,6 +1,6 @@
 body
   background-color: #edeef0
-
+  
 header
   position: fixed
   display: flex
@@ -15,20 +15,10 @@ header
     flex-direction: column
     height: 75px
 
-.menu_header,
+.menu_header
   cursor: pointer
   font-size: 40px
   color: white
-  animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
-  @keyframes text-focus-in
-    0%
-      filter: blur(12px)
-      opacity: 0
-    100%
-      filter: blur(0px)
-      opacity: 1
-  &:active
-    color: #ff7395
     
 .menu_links
   display: flex
@@ -44,14 +34,12 @@ header
   font-weight: 100px
   letter-spacing: 1px
   font-size: 15px
+  transition: .2s ease-in-out
   &:hover
     color: rgb(235, 160, 157)
     transition: .2s ease-in-out
   @media screen and (max-width: 700px)
     font-size: 16.5px
-
-.menu_links_link
-  animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both
   
 .menu_header::after
   content: "."
