@@ -8,7 +8,7 @@ gulp.task('Минификатор_JS', function () {
   gulp.src('src/js/*.js')
     .pipe(uglify())
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('dist/js/plugin.js'));
+    .pipe(gulp.dest('dist/js/'));
 });
 
 gulp.task('Минификатор_HTML_ТОЛЬКО_В_Master', function() {
