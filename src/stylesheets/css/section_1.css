@@ -8,12 +8,15 @@ header {
   width: 100%;
   border-bottom: 1px solid #e3e3e3;
   flex-wrap: wrap-reverse;
-  background-image: url(../img/art-botanical-cactus-532566.min.jpg); }
+  background-image: none; }
+  @media screen and (max-width: 2560px) {
+    .section_info {
+      background-image: url(../img/art-botanical-cactus-532566.min.jpg); } }
 
 .section_info_1, .section_info_2 {
   padding: 50px;
   margin-bottom: 180px; }
-  @media screen and (max-width: 810px) {
+  @media screen and (max-width: 990px) {
     .section_info_1, .section_info_2 {
       padding: 10px;
       margin-bottom: 25px; } }
@@ -22,7 +25,7 @@ header {
   opacity: 0.8;
   padding-left: 95px;
   display: block; }
-  @media screen and (max-width: 810px) {
+  @media screen and (max-width: 990px) {
     .my_contact, .span_icons {
       padding-left: 70px; } }
 
@@ -31,8 +34,9 @@ header {
   float: left; }
 
 .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github, .fa-spotify {
-  margin-left: 40px; }
-  @media screen and (max-width: 810px) {
+  margin-left: 40px;
+  transition: 0.5s ease-in-out; }
+  @media screen and (max-width: 990px) {
     .fa-telegram-plane, .fa-instagram, .fa-linkedin-in, .fa-github, .fa-spotify {
       margin-left: 26px; } }
   .fa-telegram-plane:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-spotify:hover {
@@ -59,14 +63,15 @@ button {
   color: #93a5cd;
   letter-spacing: 1px;
   text-shadow: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.3s ease-in-out; }
   button:hover {
     color: white;
     transition: 0.3s ease-in-out;
     background: #93A5CD;
     letter-spacing: 3px; }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 990px) {
   .section_info_1 {
     margin-left: 5px; } }
 
